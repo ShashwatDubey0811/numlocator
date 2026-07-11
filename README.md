@@ -1,4 +1,4 @@
-# Numlocator
+# Signal Locator
 
 A number guessing game with a twist — instead of plain "too high / too low" text, a live signal-locator gauge shows how close you are to the target number in real time.
 
