@@ -1,0 +1,22 @@
+# Auto-detect text files and normalize line endings to LF in the repo
+* text=auto eol=lf
+
+# Explicit handling for known types
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Don't let GitHub count HTML in language stats as the "main" language
+# (optional — remove this if you're fine with HTML being counted)
+*.html linguist-vendored=false
+
+# Binary files — never touch these
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
